@@ -1,5 +1,5 @@
 # 目录
 
-[Welcomd to github pages](welcomd)
+[Welcomd to github pages](welcome)
 
 [Test page](test)
