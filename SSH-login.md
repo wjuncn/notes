@@ -8,9 +8,9 @@
 
 如果已经有 SSH 密钥对，可以忽略本步骤。如果没有，按照以下方法创建。
 
-1. 打开 git 客户端，键入命令：`ssh-keygen -C "xxx@utstar.com" -P "" -f id_rsa.gitlab`
+1. 打开 git 客户端，键入命令：`ssh-keygen -C "xxx@abc.com" -P "" -f id_rsa.gitlab`
 
-   其中的 email 地址 `xxx@utstar.com` ，请用自己的 email 代替。
+   其中的 email 地址 `xxx@abc.com` ，请用自己的 email 代替。
 
 2. 如下提示，表明创建成功。私钥和公钥文件，都存放在目录 `~/.ssh`下
 
@@ -23,7 +23,7 @@
     Your identification has been saved in id_rsa.gitlab.
     Your public key has been saved in id_rsa.gitlab.pub.
     The key fingerprint is:
-    SHA256:pwUjsFTnxgP2f6zzaN0I/sLfhtUrbqaMqfqZl33h4pE xxx@utstar.com
+    SHA256:pwUjsFTnxgP2f6zzaN0I/sLfhtUrbqaMqfqZl33h4pE xxx@abc.com
     The key's randomart image is:
     +---[RSA 2048]----+
     |    o.+ .        |
@@ -44,12 +44,12 @@
 
 2. 创建一个名为 `config` 的文件，如果已经有了，就打开它。
 
-3. 在文件中增加如下内容，其中`xxx@utstar.com `请用自己在上一步骤里所使用的 email 代替：
+3. 在文件中增加如下内容，其中`xxx@abc.com `请用自己在上一步骤里所使用的 email 代替：
 
     ```
-    Hostname gitlab.utstar.com.cn
+    Hostname gitlab.abc.com.cn
     Port 2222
-    User xxx@utstar.com
+    User xxx@abc.com
     IdentityFile ~/.ssh/id_rsa.gitlab
     ```
 
@@ -81,4 +81,4 @@
 
 ## 参考文档
 
-http://gitlab.utstar.com.cn/help/ssh/README
+http://gitlab.com/help/ssh/README
