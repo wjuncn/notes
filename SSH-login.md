@@ -1,6 +1,6 @@
 [[_TOC_]]
 
-# 使用 SSH 登录 Gitlab 的方法
+# 使用 SSH 登录 Gitlab 
 
 本文以 Git 原生的客户端程序为例，讲解如何使用 SSH 登录 Gitlab 的方法。其它客户端，可依此类推。
 

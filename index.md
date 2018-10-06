@@ -2,6 +2,4 @@
 
 [Welcomd to github pages](welcome)
 
-[Test page](test)
-
-[Login to Gitlab by SSH](SSH-login)
+[通过SSH登录Gitlab](SSH-login)
