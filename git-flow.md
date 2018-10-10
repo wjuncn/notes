@@ -2,7 +2,7 @@
 
 ## 流程图
 
-![git-flow.png](images\git-flow.png)
+![images/git-flow.png](images/git-flow.png)
 
 ## 流程说明
 
