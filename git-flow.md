@@ -10,7 +10,7 @@
 
 ### ①：新建分支
 
-每次开发新功能，都应该新建一个单独的分支
+每次开发新功能，都应该新建一个单独的分支，例如下面命令中的 `myfeature`
 
 ```
 $ git checkout master
@@ -65,7 +65,7 @@ $ git pull origin master --rebase
 $ git rebase -i origin/myfeature
 ```
 
-rebase命令的 -i 参数表示互动（interactive），这时 git 会打开一个互动界面，具体的操作就不细说了。
+rebase 命令的 -i 参数表示互动（interactive），这时 git 会打开一个互动界面，具体的操作就不细说了。
 
 ### ⑥：推送到远程仓库
 
@@ -77,9 +77,9 @@ $ git push --force origin myfeature
 
 因为rebase以后，分支历史改变了，跟远程分支不一定兼容，有可能要强行推送，因此要在 git push 命令中加上 force 参数。
 
-### ⑦：发出Merge Request
+### ⑦：发出 Merge Request
 
-提交到远程仓库以后，就可以发出 Merge Request 到 master 分支，然后请求 Owner 进行代码 review，确认可以合并到 master。
+提交到远程仓库以后，就可以发出 Merge Request 到 master 分支，然后请求 Owner 进行代码 Review，确认可以合并到 master。
 
 # 参考
 
