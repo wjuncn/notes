@@ -1,2 +1,2 @@
 # notes
-To view the pages, please refer to wjuncn.github.io/notes
+To view the pages, please refer to https://wjuncn.github.io/notes
